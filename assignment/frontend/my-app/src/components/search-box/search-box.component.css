@@ -1,0 +1,22 @@
+.ant-radio-group-large .ant-radio-button-wrapper {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+
+
+.ant-btn-lg {
+    height: 40px;
+    color: white;
+    background-color: rgba(226, 0, 49, 1);
+    border: 1px solid rgba(226, 0, 49, 1);
+}
+ 
+
+@media (min-width: 1200px) {
+    .ml-6-lg {
+        margin-left: 6px;
+    }
+}
+
+ 

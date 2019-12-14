@@ -1,0 +1,62 @@
+.result-item, .total {
+    padding: 4px;
+    background-color: #ddd;
+    border-radius: 2px;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.result-item {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.result-item > *, .total > * {
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.total {
+    margin-bottom: 8px;
+    height: 50px;
+    line-height: 45px;
+}
+
+.countryInfoAndPrice, .price, .total .title {
+    font-size: 14px;
+    font-family: Lato Semibold, sans-serif;
+    font-weight: 600;
+}
+
+.price {
+    float: right;
+}
+
+.total .title {
+    float: left;
+}
+
+.transport {
+    font-size: 12px;
+}
+
+.transport .transport-type {
+    font-family: "Lato Semibold Italic", sans-serif;
+    font-weight: 700;
+}
+
+.transport .reference, .transport .for {
+    font-family: "Lato Light", sans-serif;
+    font-style: italic;
+}
+
+.countryInfoAndPrice .fa {
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
