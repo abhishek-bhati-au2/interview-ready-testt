@@ -1,5 +1,0 @@
-class FindPath {
-    constructor(props) {
-    }
-  }
-  
